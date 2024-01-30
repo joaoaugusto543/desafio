@@ -1,0 +1,6 @@
+3) A função é: c, A função é: d e por último A função é: a
+
+4) sim, o await não tem que estar quando for chamar o c() e o d(), pois não é uma função async; 
+outro erro é na função c, o alertUser('c') resolvia a promisse então o certo é colocar o alertUser('c') dentro do resolve;
+a função b alertUser('b') é inútil na função b;
+o código poderia ter seguido o cleanCode
